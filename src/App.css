@@ -1,0 +1,11 @@
+.header-app {
+  width: 100vw;
+  height: 10vh;
+  background-color: #c3b4f3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 25px;
+  gap: 50px;
+  margin-bottom: 50px;
+}

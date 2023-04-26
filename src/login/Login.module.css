@@ -1,0 +1,39 @@
+.form {
+  width: 40vw;
+  height: 35vh;
+  background-color: #fff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-left: 400px;
+}
+
+.inputBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 15% 0 18%;
+}
+.invalid {
+  background-color: rgba(255, 0, 0, 0.493);
+
+  border: none;
+}
+.label {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #333;
+}
+.input {
+  width: 20vw;
+  height: 4vh;
+  border: 1px solid;
+  border-radius: 8px;
+}
+.input:focus {
+  background-color: pink;
+}
